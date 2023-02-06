@@ -2,13 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities{
+@layer components{
     .btn1{
         @apply text-[13px] border-none outline-none ring-2 px-3 mt-2 rounded-xl hover:scale-x-105
     }
-}
-@layer utilities{
+
+
     .trangition{
         @apply duration-500
     }
 }
+
+
